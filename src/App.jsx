@@ -6,12 +6,15 @@ import './App.css'
 
 import React from 'react'
 import Navbar from './components/Navbar'
+import Footer from './components/footer'
+import MainBody from './components/main'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-
+      <MainBody/>
+      <Footer/>
     </div>
   )
 }
